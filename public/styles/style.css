@@ -1,0 +1,46 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Comfortaa', sans-serif;
+}
+
+#Hero {
+    background-image: url("../images/hero.jpg");
+    height: 700px;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 6rem;
+    color: teal;
+}
+
+
+h2 {
+    color: teal;
+}
+
+
+.btn-outline-custom {
+    color: teal;
+    border-color: teal;
+}
+    
+.btn-outline-custom:hover {
+    color: #fff;
+    background-color: teal;
+    border-color: teal;
+}
+
+.btn-custom {
+    color: whitesmoke;
+    background-color: teal;
+  }
+
+.btn-custom:hover {
+    color: #fff;
+    background-color: turquoise;
+    border-color: teal;
+}
