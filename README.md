@@ -51,3 +51,7 @@ Installation
 You can customize styles by editing the CSS files in the public/styles/ directory.
 
 Note: Replace `[repository-url]` and `[project-directory]` with your repository's URL and local directory name respectively.
+
+![Blog Website Screenshot](https://i.imgur.com/MIi4BpQ.png)
+
+![Blog Post Screenshot](https://i.imgur.com/4PcoQUe.png))
