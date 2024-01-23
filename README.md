@@ -28,7 +28,7 @@ Installation
 
 1. Start the server:
 
-`npm start`
+`node index.js`
 
 2. Access the website:
     - Open http://localhost:3000 in your browser.
