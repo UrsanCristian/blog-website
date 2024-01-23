@@ -2,7 +2,7 @@ import bodyParser from "body-parser";
 import express from "express";
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 app.use(bodyParser.urlencoded({ extended: true }));
 
@@ -57,6 +57,6 @@ app.get("/delete/:id", (req, res) => {
     res.redirect('/');
 })
 
-app.listen(port, () => {
+app.listen(port, '0.0.0.0', () => {
     console.log(`Server running on port ${port}`)
 });
